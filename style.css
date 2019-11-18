@@ -1,0 +1,87 @@
+html,
+body {
+  background: white;
+  margin: 0;
+}
+.landing {
+  /* Photo by Rodion Kutsaev on Unsplash */
+  background-image: url(rodion-kutsaev-unsplash1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #c6cbef;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header {
+  margin: 5vh 40vw;
+  color: black;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  align-self: center;
+  padding-left: 0;
+}
+.nav-link,
+#resume-icon,
+#social-icon {
+  margin: 0;
+  padding: 1vw;
+  color: black;
+  font-size: 2em;
+}
+.container {
+  justify-content: center;
+  max-width: 100%;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  grid-template-rows: repeat(4, auto) minmax(400px, auto);
+  grid-gap: 0;
+}
+#resume-section,
+#connect {
+  text-align: center;
+}
+.fas:hover {
+  opacity: 0.6;
+}
+p {
+  font-size: 0.9em;
+  font-family: "Cutive Mono", monospace;
+  padding: 5.5vw;
+  text-align: left;
+  background-color: lavender;
+  border-radius: 15px;
+}
+h2,
+h4 {
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+}
+.row {
+  grid-area: auto;
+  justify-content: center;
+  padding: 2em 13em;
+}
+footer {
+  margin-top: 10vh;
+  display: inline-block;
+  font-family: "Cutive Mono", monospace;
+  position: relative;
+  text-align: center;
+  background-color: hsl(169, 43%, 90%);
+  width: 100vw;
+  height: 8vh;
+}
+footer > div {
+  padding-top: 2%;
+  font-size: 0.8em;
+}
