@@ -86,18 +86,34 @@ header {
 #nav-icon:hover > span {
   opacity: 1;
 }
-p {
-  font-size: 0.9em;
-  font-family: "Cutive Mono", monospace;
-  padding: 5.5vw;
-  text-align: left;
-  background-color: lavender;
-  border-radius: 15px;
-}
 h2,
 h4 {
   font-family: "Major Mono Display", monospace;
   text-align: center;
+}
+p {
+  font-size: 0.9em;
+  font-family: "Cutive Mono", monospace;
+  padding: 5.5vw;
+  background-color: lavender;
+  border-radius: 15px;
+}
+/* Portfolio Gallery Flexbox*/
+.portfolio-container {
+  display: flex;
+  align-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.portfolio-container span {
+  margin: 2em;
+}
+img {
+  max-width: 100%;
 }
 .row {
   grid-area: auto;
