@@ -16,4 +16,4 @@ The site has very minimal design and features:
 - Contemplating switching up the design completely from raw CSS to personalized Bootstrap theme
 
 #### Deployed 
-Visit my site here: meganchoi.com
+Visit my site here: [meganchoi.com](http://meganchoi.com/)
