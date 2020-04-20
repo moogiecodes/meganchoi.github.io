@@ -4,6 +4,13 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+.header {
+  text-transform: none;
+  margin: 5vh 40vw;
+  color: black;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+}
 .landing {
   /* Photo by Rodion Kutsaev on Unsplash */
   background-image: url(rodion-kutsaev-unsplash1.jpg);
@@ -17,12 +24,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-header {
-  margin: 5vh 40vw;
-  color: black;
-  text-align: center;
-  font-family: "Major Mono Display", monospace;
 }
 .nav {
   display: flex;
@@ -75,7 +76,6 @@ header {
   font-size: 2vmin;
   font-family: "Cutive Mono", monospace;
 }
-
 #nav-icon span:before {
   content: " ";
   width: 10px;
@@ -101,6 +101,7 @@ p {
   padding: 5.5vw;
   background-color: lavender;
   border-radius: 15px;
+  line-height: 1.5em;
 }
 /* Portfolio Gallery Flexbox*/
 .portfolio-container {
@@ -111,7 +112,6 @@ p {
   align-items: baseline;
   margin: auto;
   box-sizing: border-box;
-  text-align: center;
 }
 .portfolio-container span {
   margin: 2em;

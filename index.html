@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Major+Mono+Display&display=swap" rel="stylesheet" />
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-oOs/gFavzADqv3i5nCM+9CzXe3e5vXLXZ5LZ7PplpsWpTCufB7kqkTlC9FtZ5nJo" crossorigin="anonymous"> -->
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="style.css" />
   <!-- Font Awesome Library -->
@@ -17,28 +19,22 @@
 <a name="top"></a>
 <div class="landing" alt="sky-background">
   <header>
-    <h6>hello, my name is</h6>
-    <h1>megan choi.</h1>
-    <h6>rithm cohort 14</h6>
+    <h6 class="header">hello, my name is</h6>
+    <h1 class="header">megan choi.</h1>
+    <h6 class="header">{software engineer}</h6>
+    <h6 class="header">⚠️ site under construction ⚠️</h6>
   </header>
 
   <!-- Navigation -->
   <ul class="nav">
-    <!-- <li>
-      <a class="nav-link" href="#top"><i class="fas fa-home" id="nav-icon">
-          <span>home</span></i>
-      </a>
-    </li> -->
     <li>
       <a class="nav-link" href="#about"><i class="fas fa-user-circle" id="nav-icon"><span>about</span></i></a>
     </li>
     <li>
-      <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code" id="nav-icon"><span
-            class="tooltiptext">portfolio</span></i></a>
+      <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code" id="nav-icon"><span>portfolio</span></i></a>
     </li>
     <li>
-      <a class="nav-link" href="#connect"><i class="fas fa-address-card" id="nav-icon"><span
-            class="tooltiptext">connect</span></i></a>
+      <a class="nav-link" href="#connect"><i class="fas fa-address-card" id="nav-icon"><span>connect</span></i></a>
     </li>
   </ul>
 </div>
@@ -56,14 +52,19 @@
     <div class="row">
       <h2 class="">about</h2>
       <p>
-        🌴 I'm a full-stack software engineer from Los Angeles, CA. <br />
+        🌴 I'm a full-stack software engineer originally from Los Angeles, CA. <br />
+        <br />
         🎓 I love integrating my non-tech background (Sociology B.A.
         from UCLA) into many aspects of my life, such as in the way I seek out
         organizations I strive to be involved with, the methods I go about to
         consume news and information, and how I empathize with the people I
-        meet. <br />
+        meet.
+        <br />
+        <br />
         🍕 Pizza is probably my favorite food (I don't really discriminate any
-        type of food!) <br />
+        type of food!)
+        <br />
+        <br />
         🐮 Cows are my favorite animal.
       </p>
       <p id="resume-section">
@@ -78,17 +79,33 @@
       <a name="portfolio"></a>
       <h2 class="">portfolio</h2>
       <p class="portfolio-container">
+        <!-- <div class="card mb-3">
+          <h3 class="card-header">Warbler</h3>
+          <img src="warblerSS.png" alt="Warbler app homepage screenshot">
+          <div class="card-body">
+            <h4 class="card-title">A Twitter-like social media application</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Built With: </h6>
+            <p class="card-text">Python3, Flask, Flask SQLAlchemy, Flask WTF, Jinja
+            </p>
+          </div>
+          <div class="card-body">
+            <a href="https://github.com/moogiecodes/warbler" class="card-link">View On Github</a>
+          </div>
+        </div> -->
         <span>
           <a href="https://warbler-r14.herokuapp.com/">
             <img src="warblerSS.png" alt="Warbler app homepage screenshot">
           </a>
           <br /><br />
-          Warbler: A Twitter-like social media application<br />
-          <a href="https://github.com/moogiecodes/warbler">On Github</a>
+          <b>WARBLER</b> - A Twitter-like social media application<br />
+          <u>Built with:</u> Python3, Flask, Flask SQLAlchemy, Flask WTF, Jinja<br />
+          <a href="https://github.com/moogiecodes/warbler">On Github</a><br />
           <br />
+          💻 Much more in progress ❗️
         </span>
       </p>
     </div>
+
     <div class="row">
       <a name="connect"></a>
       <h2 class="">connect with me</h2>
