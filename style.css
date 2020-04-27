@@ -33,12 +33,15 @@ body {
 }
 #nav-icon,
 #resume-icon,
-#social-icon {
+.social-icon {
   margin: 0;
   padding: 1vw;
   color: black;
   font-size: 2em;
   text-align: center;
+}
+.repo-icon {
+  float: right;
 }
 .container {
   justify-content: center;
